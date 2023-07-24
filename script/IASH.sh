@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Escreva ./AI.sh para começar
 clear
 # Função que responde às perguntas
 responder_pergunta() {
