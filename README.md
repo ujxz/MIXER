@@ -1,4 +1,22 @@
 # IASH
-![yeedw_IASH_ IASH is an artificial intelligence made in Shell Script - Google Chrome 23_07_2023 16_31_04](https://github.com/yeedw/IASH/assets/110259744/dec7db3f-4bda-49cd-8fad-57ede76d204b)
+*This project is in production, it is not the final version*
 
-Coming soon
+Hello, Meet I.A.S.S (Artificial Intelligence in Shell Script).
+A simple AI formed basically in shell script with some basic functions like:
+
+Answers to simple questions ✓
+play a game of odd and even ✓
+
+Version: 1.1.2
+
+|-------------------------------------|
+
+Things to be added:
+
+Add, Subtract, Multiply, and Divide Functions
+
+Hangman game
+
+|-------------------------------------|
+
+~by @yeedw
