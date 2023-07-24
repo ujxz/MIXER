@@ -20,3 +20,5 @@ Hangman game
 |-------------------------------------|
 
 ~by @yeedw
+
+ <img style="left: 200px; position:relative" src="https://github.com/yeedw/IASS/assets/110259744/8983f32c-1700-422b-8096-4757b142a495">
