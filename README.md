@@ -6,7 +6,7 @@
 
 
 *This project is in production, it is not the final version*
-<img align="right" style="width: 500px" src="https://github.com/yeedw/IASS/assets/110259744/8983f32c-1700-422b-8096-4757b142a495">
+<img align="right" style="width: 400px" src="https://github.com/yeedw/IASS/assets/110259744/8983f32c-1700-422b-8096-4757b142a495">
 Hello, Meet I.A.S.S (Artificial Intelligence in Shell Script).
 A simple AI formed basically in shell script with some basic functions like:
 
