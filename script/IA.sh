@@ -1,35 +1,6 @@
 #!/bin/bash
 clear
 
-# Respoder as Perguntas
-responder_pergunta() {
-  pergunta=$1
-  resposta=""
-
-  case $pergunta in
-    "Qual é o seu nome?")
-      resposta="Meu nome é IASH!"
-      ;;
-    "Vamos jogar impar e par")
-      resposta=$(impar_par)
-      ;;
-    "Qual é a sua função?")
-      resposta="Minha função é ajudar a responder perguntas."
-      ;;
-    "Como você está?")
-      resposta="Como sou um programa, não tenho sentimentos, mas obrigado por perguntar!"
-      ;;
-    "Quantos anos você tem?")
-      resposta="Ainda sou muito Jovem para respoder"
-      ;;
-    *)
-      resposta="Desculpe, não consigo responder a essa pergunta."
-      ;;
-  esac
-
-  echo $resposta
-}
-
 # Jogo de impar e par
 impar_par() {
 
@@ -108,8 +79,38 @@ elif [[ "$jogador_pontos" -lt "$computador_pontos" ]]; then
 else
     echo "O jogo terminou em empate. Bom jogo!"
 fi
-
 }
+
+# Respoder as Perguntas
+responder_pergunta() {
+  pergunta=$1
+  resposta=""
+
+  case $pergunta in
+    "Qual é o seu nome?")
+      resposta="Meu nome é IASH!"
+      ;;
+    "Vamos jogar impar e par")
+      resposta=$(impar_par)
+      ;;
+    "Qual é a sua função?")
+      resposta="Minha função é ajudar a responder perguntas."
+      ;;
+    "Como você está?")
+      resposta="Como sou um programa, não tenho sentimentos, mas obrigado por perguntar!"
+      ;;
+    "Quantos anos você tem?")
+      resposta="Ainda sou muito Jovem para respoder"
+      ;;
+    *)
+      resposta="Desculpe, não consigo responder a essa pergunta."
+      ;;
+  esac
+
+  echo $resposta
+}
+
+
 
 # Loop principal
 while true; do
