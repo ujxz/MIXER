@@ -11,7 +11,7 @@ responder_pergunta() {
       resposta="Meu nome é IASH!"
       ;;
     "Vamos jogar impar e par")
-      resposta= $(impar_par())
+      resposta=$(impar_par)
       ;;
     "Qual é a sua função?")
       resposta="Minha função é ajudar a responder perguntas."
