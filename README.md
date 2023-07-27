@@ -1,4 +1,3 @@
-<p align="center"><img style="width: 140px" border="1px solid black" border-radius="220%" src="https://github.com/yeedw/IASS/assets/110259744/2d8faff7-f0ff-42db-8367-238143b28b48"></p> 
 <h1 align="center">IASS 
  
 ![Static Badge](https://img.shields.io/badge/license-MIT-%235FCC6F) 
