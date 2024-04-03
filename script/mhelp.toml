@@ -1,0 +1,7 @@
+# config.toml
+
+[app]
+name = "MIXER"
+edition = "2024"
+dependecies = "toml, emoji"
+version = "1.0.0"
