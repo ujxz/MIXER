@@ -39,18 +39,19 @@ while True:
     pergunta = input("\033[94m %s $" % imput_shell)
     if pergunta == "exit":
         break
-    elif pergunta == "mping":
-        os.system('ping' if os.name == 'nt' else 'ping')
+    elif pergunta == "mls":
+        os.system('dir' if os.name == 'nt' else 'ls')
     elif pergunta == "mhelp":
         mhelp = carregar_config()
-        print("\nNome da aplicação:\033[97m", mhelp['app']['name'])
-        print("Versão:\033[97m", mhelp['app']['version'])
-        print("Dependencias:\n\033[97m", mhelp['app']['dependecies'])
+        print("\033[97m\nApp:\033[97m", mhelp['app']['name'])
+        print("\033[97mComands:", mhelp['app']['comands'])
+        print("Dependencias:\n\033[1;91m", mhelp['app']['dependecies'])
+        print("\033[97mVersão:\033[97m", mhelp['app']['version'])
         print("\033[94m")
     elif pergunta == "mcat":
         os.system('nc')
     elif not pergunta:
         print("\nDigite algo\n")
 
-print("\nByeBye!")
 os.system('cls' if os.name == 'nt' else 'clear')
+print("\nByeBye!")
